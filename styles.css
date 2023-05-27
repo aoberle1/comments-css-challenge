@@ -1,0 +1,36 @@
+.post {
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.username {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.post-age {
+    color: lightgray;
+    margin-left: 10px;
+}
+
+.reply {
+    color: blue;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.profile-pic {
+    /* padding-left: 10px; */
+    height: 1.7em;
+    width: auto;
+}
+
+.post-info {
+    display: flex;
+    height: 1.2em;
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
