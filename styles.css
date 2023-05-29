@@ -51,11 +51,15 @@ body {
 }
 
 .post-text {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .you {
     margin-left: 20px;
     background-color: blue;
     color: white;
+}
+
+.reply-username {
+    color: blue;
 }
