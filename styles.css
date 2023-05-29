@@ -2,22 +2,24 @@
     max-width: 50%;
     margin: 0 auto;
     background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .username {
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .post-age {
     color: lightgray;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .reply {
     color: blue;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .delete {
@@ -32,7 +34,7 @@
 }
 
 .profile-pic {
-    padding-left: 10px;
+    padding-left: 20px;
     width: auto;
     height: 1.7em;
 }
@@ -41,6 +43,7 @@
     margin-left: 50px;
     display: flex;
     height: 1.2em;
+    margin-bottom: 10px;
 }
 
 body {
@@ -49,4 +52,10 @@ body {
 
 .post-text {
     margin-left: 50px;
+}
+
+.you {
+    margin-left: 20px;
+    background-color: blue;
+    color: white;
 }
