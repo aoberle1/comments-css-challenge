@@ -38,11 +38,15 @@
 }
 
 .post-info {
+    margin-left: 50px;
     display: flex;
     height: 1.2em;
 }
 
 body {
     background-color: lightgray;
-    
+}
+
+.post-text {
+    margin-left: 50px;
 }
