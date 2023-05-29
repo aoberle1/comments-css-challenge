@@ -1,6 +1,7 @@
 .post {
     max-width: 50%;
     margin: 0 auto;
+    background-color: white;
 }
 
 .username {
@@ -19,6 +20,17 @@
     margin-right: 15px;
 }
 
+.delete {
+    color: red;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.edit {
+    color: blue;
+    margin-right: 20px;
+}
+
 .profile-pic {
     padding-left: 10px;
     width: auto;
@@ -28,4 +40,9 @@
 .post-info {
     display: flex;
     height: 1.2em;
+}
+
+body {
+    background-color: lightgray;
+    
 }
